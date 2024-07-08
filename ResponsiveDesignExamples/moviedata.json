@@ -1,0 +1,86 @@
+[
+	{
+		"title": "Quantum Mirage",
+		"rank": 1,
+		"year": 2007,
+		"rating": 89,
+		"genre": "Sci-fi"
+	},
+	{
+		"title": "Whispers in the Dark",
+		"rank": 2,
+		"year": 2015,
+		"rating": 94,
+		"genre": "Thriller"
+	},
+	{
+		"title": "Starlight Serenade",
+		"rank": 3,
+		"year": 1998,
+		"rating": 85,
+		"genre": "Romance"
+	},
+	{
+		"title": "The Phantom Chronicles",
+		"rank": 4,
+		"year": 2012,
+		"rating": 91,
+		"genre": "Fantasy"
+	},
+	{
+		"title": "Cyber Heist",
+		"rank": 5,
+		"year": 2020,
+		"rating": 87,
+		"genre": "Action"
+	},
+	{
+		"title": "The Celestial Journey",
+		"rank": 6,
+		"year": 2003,
+		"rating": 95,
+		"genre": "Adventure"
+	},
+	{
+		"title": "Echoes of Eternity",
+		"rank": 7,
+		"year": 1995,
+		"rating": 88,
+		"genre": "Drama"
+	},
+	{
+		"title": "Galactic Gambit",
+		"rank": 8,
+		"year": 2018,
+		"rating": 93,
+		"genre": "Sci-fi"
+	},
+	{
+		"title": "Mystic Shadows",
+		"rank": 9,
+		"year": 2001,
+		"rating": 84,
+		"genre": "Horror"
+	},
+	{
+		"title": "Neon Nights",
+		"rank": 10,
+		"year": 2023,
+		"rating": 90,
+		"genre": "Thriller"
+	},
+	{
+		"title": "Savannah Skies",
+		"rank": 11,
+		"year": 1992,
+		"rating": 86,
+		"genre": "Drama"
+	},
+	{
+		"title": "Zero Hour",
+		"rank": 12,
+		"year": 2017,
+		"rating": 92,
+		"genre": "Action"
+	}
+]
