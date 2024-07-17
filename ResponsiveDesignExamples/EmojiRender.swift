@@ -18,6 +18,15 @@ import CoreGraphics
 // }
 // #endif
 
+// Give NSImage a more convenient way to extract CGImage, to mirror UIImage API
+#if os(macOS)
+extension NSImage {
+	var cgImage: CGImage? {
+		cgImage(forProposedRect: nil, context: nil, hints: nil)
+	}
+}
+#endif
+
 extension String {
 
 	static let nativeEmojiSize: CGFloat = 160
@@ -50,7 +59,7 @@ private extension Image {
 	init(emoji: String) {
 		let nsImage = emoji.render(size: String.nativeEmojiSize)	// 160 is "native" emoji bitmap size
 		// extracting CGImage may result in nil — fallback is to use the NSImage/UIImage init so we can return non-optional Image
-		if let cgImage = nsImage.cgImage(forProposedRect: nil, context: nil, hints: nil) {
+		if let cgImage = nsImage.cgImage {
 			self.init(cgImage, scale: 1, label: Text(emoji))	// attach emoji string for accessibility
 		} else {
 			self.init(nsImage: nsImage)	// fallback, no accessibilty attached
